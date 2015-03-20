@@ -104,6 +104,15 @@
                                     <rect key="frame" x="16" y="80" width="337" height="44"/>
                                 </variation>
                             </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zdm-29-aTB">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="147" width="249" height="21"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -113,6 +122,7 @@
                                 <exclude reference="szA-y8-PK6"/>
                                 <exclude reference="5JZ-wG-GAE"/>
                                 <exclude reference="WFM-eU-Nyx"/>
+                                <exclude reference="Zdm-29-aTB"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -122,6 +132,7 @@
                                 <include reference="szA-y8-PK6"/>
                                 <include reference="5JZ-wG-GAE"/>
                                 <include reference="WFM-eU-Nyx"/>
+                                <include reference="Zdm-29-aTB"/>
                             </mask>
                         </variation>
                     </view>
@@ -130,6 +141,7 @@
                         <outlet property="enterNameTextField" destination="NGv-pa-kgJ" id="WtS-Vs-ycm"/>
                         <outlet property="mailButton" destination="5JZ-wG-GAE" id="mYF-3Z-Jdf"/>
                         <outlet property="messageLabel" destination="WFM-eU-Nyx" id="ruA-GY-R7N"/>
+                        <outlet property="nameLabel" destination="Zdm-29-aTB" id="m5x-Ox-Xd5"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
